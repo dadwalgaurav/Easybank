@@ -1,0 +1,210 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@100;200;300&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+
+}
+body{
+    font-family: 'Public Sans', sans-serif;
+}
+
+:root{
+    --p-colot:#bebfc4;
+    --hero-section-bg-color:#fafafa;
+    --section-2-bg-color: #f4f5f7;
+    --section-3-bg-color:#fafafa;
+    --footer-color:#2d314e;
+
+}
+.text-color{
+    color: var(--p-colot);
+}
+.nav-bar{
+    z-index: 1;
+}
+
+.nav-ul{
+    margin-right: 200px;
+    margin: auto;
+}
+.hero-text{
+    position: absolute;
+    top: 60%;
+}
+.hero-row{
+    padding-bottom: 60%;
+    background-color: var(--hero-section-bg-color);
+}
+.hero-bg-image{
+    background-image: url('../images/bg-intro-mobile.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    top: -63px;
+}
+.mobile-img{
+    position: relative;
+    top:-70px;
+}
+.hero-section{
+    background-color: green;
+}
+
+/* Section 2 css start */
+
+.section-2-row{
+    padding: 0 10%;
+    background-color: var(--section-2-bg-color);
+}
+.section-2-cards h3{
+    font-size: x-large;
+    
+}
+/* section 2 css end */
+
+/* section 3 css start */
+.card-width{
+    width: 18rem;
+    margin: auto;
+    
+    margin-bottom: 30px;
+}
+.section-3-row{
+    background-color: var(--section-3-bg-color);
+}
+.name{
+    font-size: x-small;
+}
+.names-p{
+    font-size: small;
+}
+/* section 3 css end */
+
+/* footer css start */
+
+.btn-color{
+    background: linear-gradient(90deg, rgba(49,208,106,1) 0%, rgba(49,195,159,1) 72%, rgba(44,186,196,1) 100%);
+    border:0px;
+}
+.footer-row{
+    background-color: var(--footer-color);
+}
+
+/* footer css end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media( min-width:1000px){
+
+
+
+    .hero-bg-image{
+        background-image: url('../images/bg-intro-desktop.svg');
+        background-repeat: no-repeat;
+        background-color: top right;
+
+    }
+    .hero-text-box{
+        width: 33%;
+        position: absolute;
+        top: -162px;
+        left: 9%;
+    }
+    .hero-request-btn{
+        width: 160%;
+        position: relative;
+        left: -81%;
+        top: -35px;
+    }
+    /* header css start */
+    .logo-header{
+        margin-left: 5%;
+    }
+    .header-btn-pos{
+        margin-right: 5%;
+    }
+    .hero-row{
+
+        height: 90vh;
+        padding-bottom: 0px;
+    }
+    .mobile-img{
+        position: relative;
+        top: -35px;
+    }
+    /* header css end */
+
+    /* section-2 css start */ 
+        .section-2-row{
+            padding: 0 10%;
+            padding-top: 5%;
+        } 
+
+     /* section-2 css end */
+
+
+    /* section 3 css start */
+
+        .section-3-row{
+            padding: 0 10%;
+
+        }
+        .card-spacing{
+            margin-right: 7%;
+            padding: 0px;
+        }
+        .card-1-img{
+            height: 148px;
+        }
+        .card-width{
+            width: 14rem;
+            /* margin-right: 7%; */
+            
+            /* margin-bottom: 30px; */
+        }
+        /* footer css start */
+        .footer-row{
+            padding: 0 10%;
+        }
+        .about-footer{
+            font-size: small;
+        }
+        .Careere-footer{
+            font-size: small;
+        }
+        .footer-request-btn{
+            position: relative;
+            top: 50px;
+            left: 20%;
+           
+
+        }
+        .btn-color{
+            background: linear-gradient(90deg, rgba(49,208,106,1) 0%, rgba(49,195,159,1) 72%, rgba(44,186,196,1) 100%);
+        }
+        .btn-top-color{
+            border: 0px;
+            background: linear-gradient(90deg, rgba(49,208,106,1) 0%, rgba(49,195,159,1) 72%, rgba(44,186,196,1) 100%);
+        }
+        .allright-reserver{
+            width: 23%;
+            position: relative;
+            bottom: 50px;
+            left: 78%;
+        }
+        /* footer css end */
+        
+}
